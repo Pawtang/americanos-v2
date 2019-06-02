@@ -1,0 +1,293 @@
+body, html{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: #ededed;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  background-image: url(images/chalkboardgray.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+  font-size: 100%;
+}
+
+
+h1{
+  display: block;
+  color: #161f49;
+  font-family: "Raleway", sans-serif;
+  font-size: 3em;
+  font-weight: 200;
+  margin: auto;
+  text-align: center;
+  padding: 0;
+  line-height: .8em;
+  margin: 20px 10px 0 0;
+}
+
+ .galleria{
+    max-width: 800px;
+    /* min-width: 400px; */
+    height: 600px;
+    background: none;
+    margin: auto;
+  }
+
+.header{
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.flexwrapper{
+
+  padding: 10px;
+  width: 100%;
+}
+
+.imgpad{
+  margin: 20px auto 0 auto;
+  max-width: 800px;
+  min-height: 100px;
+  padding: 10px;
+}
+
+img{
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+}
+
+#gallery{
+  object-fit: cover;
+  width: 350px;
+  height: 350px;
+  margin: 10px 0 10px 0;
+}
+
+#loctitle{
+  display: block;
+  object-fit: cover;
+  width: 350px;
+  margin: 10px auto;
+}
+
+#hourstitle{
+  display: block;
+  object-fit: cover;
+  width: 250px;
+  margin: 10px auto;
+}
+
+#menutitle{
+  display: block;
+  object-fit: cover;
+  width: 200px;
+  margin: 10px auto;
+}
+
+#abouttitle{
+  display: block;
+  object-fit: cover;
+  width: 250px;
+  margin: 10px auto 0;
+}
+
+
+.navbar
+{
+  margin: 20px;
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  font-weight: 400;
+}
+
+.navbar a, .navbar a:visited
+{
+  font-family: "Raleway", sans-serif;
+  display: inline-block;
+  color: #161f49;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 1.4em;
+  text-decoration: none;
+}
+
+.navbar a:hover
+{
+    color: white;
+    background-color: #161f49;
+}
+.width
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+.card{
+  display: block;
+  width: 90%;
+  align-content: center;
+  margin: 0 auto 50px;
+  padding: 10px;
+  background: white;
+}
+
+
+
+.column{
+  margin: 0 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+iframe{
+  display: block;
+  margin: 20px auto;
+}
+
+.info{
+  display: block;
+  max-width: 600px;
+  padding: 20px;
+  margin: auto;
+  font-size: 1.4em;
+  text-align: center;
+  background-color: none;
+}
+
+p{
+  line-height: 1.6em;
+  font-size: .8em;
+}
+
+i{
+    margin: 0;
+    line-height: 1em;
+}
+
+ul{
+  list-style-type: none;
+  line-height: 1.4;
+  margin: auto;
+}
+
+li{
+  margin: 15px 0;
+}
+
+
+
+.viewport{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100%;
+}
+
+.aboutquote{
+  max-width: 800px;
+  width: 80%;
+  display: block;
+  text-indent: 1.4em;
+  text-align: justify;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2em;
+  color: #141414;
+  line-height: 1.8em;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+  margin: 10px auto;
+}
+
+a, a:hover, a:visited{
+  color:white;
+  text-decoration: none;
+}
+
+ @media (max-width: 767px) {
+
+  .galleria{
+    height: 400px;
+  }
+
+  #gallerywrap{
+    height: 100%;
+  }
+
+  iframe{
+    max-width: 600px;
+  }
+  .imgpad{
+    max-width: 500px;
+  }
+
+  .card{
+    width: 100vw;
+  }
+
+  P{
+    font-size: .8em;
+    font-weight: 200;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.reserve{
+  outline: 1px solid gray;
+  width: 80%;
+  height: auto;
+  padding: 50px;
+  margin: 0 auto 50px;
+  -webkit-box-shadow: 10px 10px 26px -20px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 26px -20px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 26px -20px rgba(0,0,0,0.75);
+}
+
+ @media (max-width: 600px){
+  .navbar{
+    display: flex;
+    flex-direction: column;
+  }
+  .galleria{
+    width: 100%;
+    height: 400px;
+  }
+}
